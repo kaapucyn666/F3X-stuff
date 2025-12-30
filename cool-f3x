@@ -1,0 +1,1700 @@
+warn("so yeah f3x gui but c00lkidd, orginal f3x gui owner - x00lman, credits to dis epic dud")
+local RScreenGui = Instance.new("ScreenGui")
+local RFrame = Instance.new("Frame")
+local Rskb = Instance.new("TextButton")
+local Rdc = Instance.new("TextButton")
+local Rfa = Instance.new("TextButton")
+local Rmsg = Instance.new("TextButton")
+local Rat = Instance.new("TextButton")
+local Rtit = Instance.new("TextButton")
+local Rbt = Instance.new("TextButton")
+local RTextLabel = Instance.new("TextLabel")
+local Rex = Instance.new("TextButton")
+local Rbl = Instance.new("TextButton")
+local Rts = Instance.new("TextButton")
+local Rba = Instance.new("TextButton")
+local Rmsg2 = Instance.new("TextButton")
+local Rma = Instance.new("TextButton")
+local Rsk2 = Instance.new("TextButton")
+local Rsa = Instance.new("TextButton")
+local Rnt = Instance.new("TextButton")
+local Rwa = Instance.new("TextButton")
+local Rr6 = Instance.new("TextButton")
+
+RScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+RScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+RScreenGui.IgnoreGuiInset = false
+RScreenGui.ResetOnSpawn = false
+
+RFrame.Parent = RScreenGui
+RFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+RFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RFrame.BorderSizePixel = 2
+RFrame.Position = UDim2.new(0.0395331345, 0, 0.119413406, 0)
+RFrame.Size = UDim2.new(0, 490, 0, 322)
+
+Rskb.Name = "skb"
+Rskb.Parent = RFrame
+Rskb.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rskb.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rskb.BorderSizePixel = 0
+Rskb.Position = UDim2.new(0.06, 0, 0.15, 0)
+Rskb.Size = UDim2.new(0, 90, 0, 40)
+Rskb.Font = Enum.Font.Highway
+Rskb.Text = "Skybox"
+Rskb.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rskb.TextScaled = false
+Rskb.TextSize = 16.000
+Rskb.TextWrapped = true
+
+Rdc.Name = "dc"
+Rdc.Parent = RFrame
+Rdc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rdc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rdc.BorderSizePixel = 0
+Rdc.Position = UDim2.new(0.795, 0, 0.15, 0)
+Rdc.Size = UDim2.new(0, 90, 0, 40)
+Rdc.Font = Enum.Font.Highway
+Rdc.Text = "Decal"
+Rdc.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rdc.TextScaled = false
+Rdc.TextSize = 16.000
+Rdc.TextWrapped = true
+
+Rfa.Name = "fa"
+Rfa.Parent = RFrame
+Rfa.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rfa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rfa.BorderSizePixel = 0
+Rfa.Position = UDim2.new(0.06, 0, 0.33, 0)
+Rfa.Size = UDim2.new(0, 90, 0, 40)
+Rfa.Font = Enum.Font.Highway
+Rfa.Text = "Fire all"
+Rfa.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rfa.TextScaled = false
+Rfa.TextSize = 16.000
+Rfa.TextWrapped = true
+
+Rmsg.Name = "msg"
+Rmsg.Parent = RFrame
+Rmsg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rmsg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rmsg.BorderSizePixel = 0
+Rmsg.Position = UDim2.new(0.795, 0, 0.33, 0)
+Rmsg.Size = UDim2.new(0, 90, 0, 40)
+Rmsg.Font = Enum.Font.Highway
+Rmsg.Text = "msg"
+Rmsg.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rmsg.TextScaled = false
+Rmsg.TextSize = 16.000
+Rmsg.TextWrapped = true
+
+Rat.Name = "at"
+Rat.Parent = RFrame
+Rat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rat.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rat.BorderSizePixel = 0
+Rat.Position = UDim2.new(0.06, 0, 0.51, 0)
+Rat.Size = UDim2.new(0, 90, 0, 40)
+Rat.Font = Enum.Font.Highway
+Rat.Text = "Alert"
+Rat.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rat.TextScaled = false
+Rat.TextSize = 16.000
+Rat.TextWrapped = true
+
+Rtit.Name = "tit"
+Rtit.Parent = RFrame
+Rtit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rtit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rtit.BorderSizePixel = 0
+Rtit.Position = UDim2.new(0.795, 0, 0.51, 0)
+Rtit.Size = UDim2.new(0, 90, 0, 40)
+Rtit.Font = Enum.Font.Highway
+Rtit.Text = "Title"
+Rtit.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rtit.TextScaled = false
+Rtit.TextSize = 16.000
+Rtit.TextWrapped = true
+
+Rbt.Name = "bt"
+Rbt.Parent = RFrame
+Rbt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rbt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rbt.BorderSizePixel = 0
+Rbt.Position = UDim2.new(0.829222083, 0, 0.0222380273, 0)
+Rbt.Size = UDim2.new(0, 60, 0, 22)
+Rbt.Font = Enum.Font.Highway
+Rbt.Text = "Btools"
+Rbt.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rbt.TextScaled = false
+Rbt.TextSize = 14.000
+Rbt.TextWrapped = true
+
+RTextLabel.Parent = RFrame
+RTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RTextLabel.BackgroundTransparency = 1.000
+RTextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RTextLabel.BorderSizePixel = 0
+RTextLabel.Position = UDim2.new(0, 155, 0, 0)
+RTextLabel.Size = UDim2.new(0, 200, 0, 35)
+RTextLabel.Font = Enum.Font.DenkOne
+RTextLabel.Text = "c00lgui F3X"
+RTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+RTextLabel.TextScaled = true
+RTextLabel.TextSize = 14.000
+RTextLabel.TextWrapped = true
+
+Rex.Name = "ex"
+Rex.Parent = RFrame
+Rex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rex.BorderSizePixel = 0
+Rex.Position = UDim2.new(0.305, 0, 0.15, 0)
+Rex.Size = UDim2.new(0, 90, 0, 40)
+Rex.Font = Enum.Font.Highway
+Rex.Text = "Explode All"
+Rex.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rex.TextScaled = false
+Rex.TextSize = 16.000
+Rex.TextWrapped = true
+
+Rbl.Name = "bl"
+Rbl.Parent = RFrame
+Rbl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rbl.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rbl.BorderSizePixel = 0
+Rbl.Position = UDim2.new(0.305, 0, 0.33, 0)
+Rbl.Size = UDim2.new(0, 90, 0, 40)
+Rbl.Font = Enum.Font.Highway
+Rbl.Text = "Blur All"
+Rbl.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rbl.TextScaled = false
+Rbl.TextSize = 16.000
+Rbl.TextWrapped = true
+
+Rts.Name = "ts"
+Rts.Parent = RFrame
+Rts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rts.BorderSizePixel = 0
+Rts.Position = UDim2.new(0.305, 0, 0.51, 0)
+Rts.Size = UDim2.new(0, 90, 0, 40)
+Rts.Font = Enum.Font.Highway
+Rts.Text = "music"
+Rts.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rts.TextScaled = false
+Rts.TextSize = 16.000
+Rts.TextWrapped = true
+
+Rba.Name = "ba"
+Rba.Parent = RFrame
+Rba.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rba.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rba.BorderSizePixel = 0
+Rba.Position = UDim2.new(0.55, 0, 0.15, 0)
+Rba.Size = UDim2.new(0, 90, 0, 40)
+Rba.Font = Enum.Font.Highway
+Rba.Text = "Bring All"
+Rba.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rba.TextScaled = false
+Rba.TextSize = 16.000
+Rba.TextWrapped = true
+
+Rmsg2.Name = "msg2"
+Rmsg2.Parent = RFrame
+Rmsg2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rmsg2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rmsg2.BorderSizePixel = 0
+Rmsg2.Position = UDim2.new(0.55, 0, 0.33, 0)
+Rmsg2.Size = UDim2.new(0, 90, 0, 40)
+Rmsg2.Font = Enum.Font.Highway
+Rmsg2.Text = "disco"
+Rmsg2.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rmsg2.TextScaled = false
+Rmsg2.TextSize = 16.000
+Rmsg2.TextWrapped = true
+
+Rma.Name = "ma"
+Rma.Parent = RFrame
+Rma.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rma.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rma.BorderSizePixel = 0
+Rma.Position = UDim2.new(0.55, 0, 0.51, 0)
+Rma.Size = UDim2.new(0, 90, 0, 40)
+Rma.Font = Enum.Font.Highway
+Rma.Text = "Morph All"
+Rma.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rma.TextScaled = false
+Rma.TextSize = 16.000
+Rma.TextWrapped = true
+
+Rsk2.Name = "sk2"
+Rsk2.Parent = RFrame
+Rsk2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rsk2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rsk2.BorderSizePixel = 0
+Rsk2.Position = UDim2.new(0.06, 0, 0.69, 0)
+Rsk2.Size = UDim2.new(0, 90, 0, 40)
+Rsk2.Font = Enum.Font.Highway
+Rsk2.Text = "Skybox 2"
+Rsk2.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rsk2.TextScaled = false
+Rsk2.TextSize = 16.000
+Rsk2.TextWrapped = true
+
+Rsa.Name = "sa"
+Rsa.Parent = RFrame
+Rsa.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rsa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rsa.BorderSizePixel = 0
+Rsa.Position = UDim2.new(0.305, 0, 0.69, 0)
+Rsa.Size = UDim2.new(0, 90, 0, 40)
+Rsa.Font = Enum.Font.Highway
+Rsa.Text = "Sit All"
+Rsa.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rsa.TextScaled = false
+Rsa.TextSize = 16.000
+Rsa.TextWrapped = true
+
+Rnt.Name = "nt"
+Rnt.Parent = RFrame
+Rnt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rnt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rnt.BorderSizePixel = 0
+Rnt.Position = UDim2.new(0.55, 0, 0.69, 0)
+Rnt.Size = UDim2.new(0, 90, 0, 40)
+Rnt.Font = Enum.Font.Highway
+Rnt.Text = "Notice"
+Rnt.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rnt.TextScaled = false
+Rnt.TextSize = 16.000
+Rnt.TextWrapped = true
+
+Rwa.Name = "wa"
+Rwa.Parent = RFrame
+Rwa.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rwa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rwa.BorderSizePixel = 0
+Rwa.Position = UDim2.new(0.795, 0, 0.69, 0)
+Rwa.Size = UDim2.new(0, 90, 0, 40)
+Rwa.Font = Enum.Font.Highway
+Rwa.Text = "Warp All"
+Rwa.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rwa.TextScaled = false
+Rwa.TextSize = 16.000
+Rwa.TextWrapped = true
+
+Rr6.Name = "r6"
+Rr6.Parent = RFrame
+Rr6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rr6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rr6.BorderSizePixel = 0
+Rr6.Position = UDim2.new(0.737362862, 0, 0.0222380273, 0)
+Rr6.Size = UDim2.new(0, 32, 0, 22)
+Rr6.Font = Enum.Font.Highway
+Rr6.Text = "R6"
+Rr6.TextColor3 = Color3.fromRGB(255, 0, 4)
+Rr6.TextScaled = false
+Rr6.TextSize = 14.000
+Rr6.TextWrapped = true
+
+local RminBtn = Instance.new("TextButton")
+RminBtn.Name = "MinimizeBtn"
+RminBtn.Parent = RFrame
+RminBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RminBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RminBtn.BorderSizePixel = 0
+RminBtn.Position = UDim2.new(0, 5, 0, 5)
+RminBtn.Size = UDim2.new(0, 30, 0, 25)
+RminBtn.Font = Enum.Font.GothamBold
+RminBtn.Text = "–"
+RminBtn.TextColor3 = Color3.fromRGB(255, 0, 4)
+RminBtn.TextSize = 18.000
+RminBtn.AutoButtonColor = false
+
+local RcloseBtn = Instance.new("TextButton")
+RcloseBtn.Name = "CloseBtn"
+RcloseBtn.Parent = RFrame
+RcloseBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RcloseBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RcloseBtn.BorderSizePixel = 0
+RcloseBtn.Position = UDim2.new(0, 40, 0, 5)
+RcloseBtn.Size = UDim2.new(0, 30, 0, 25)
+RcloseBtn.Font = Enum.Font.GothamBold
+RcloseBtn.Text = "X"
+RcloseBtn.TextColor3 = Color3.fromRGB(255, 0, 4)
+RcloseBtn.TextSize = 16.000
+RcloseBtn.AutoButtonColor = false
+
+local function RQERME_fake_script()
+	local Rscript = Instance.new('LocalScript', Rskb)
+
+	local Rname = Rscript.Parent
+	
+	Rname.MouseButton1Click:Connect(function()
+		local Rplayer = game.Players.LocalPlayer
+		local Rchar = Rplayer.Character
+		local Rtool
+		for Ri,Rv in Rplayer:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		for Ri,Rv in game.ReplicatedStorage:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		Rremote = Rtool.SyncAPI.ServerEndpoint
+		function R_(Rargs)
+			Rremote:InvokeServer(unpack(Rargs))
+		end
+		function RSetCollision(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SyncCollision",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CanCollide"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetAnchor(Rboolean,Rpart)
+			local Rargs = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Anchored"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreatePart(Rcf,Rparent)
+			local Rargs = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = Rcf,
+				[4] = Rparent
+			}
+			R_(Rargs)
+		end
+		function RDestroyPart(Rpart)
+			local Rargs = {
+				[1] = "Remove",
+				[2] = {
+					[1] = Rpart
+				}
+			}
+			R_(Rargs)
+		end
+		function RMovePart(Rpart,Rcf)
+			local Rargs = {
+				[1] = "SyncMove",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RResize(Rpart,Rsize,Rcf)
+			local Rargs = {
+				[1] = "SyncResize",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf,
+						["Size"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RAddMesh(Rpart)
+			local Rargs = {
+				[1] = "CreateMeshes",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSetMesh(Rpart,Rmeshid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["MeshId"] = "rbxassetid://"..Rmeshid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetTexture(Rpart, Rtexid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["TextureId"] = "rbxassetid://"..Rtexid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetName(Rpart, Rstringg)
+			local Rargs = {
+				[1] = "SetName",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rstringg
+			}
+	
+			R_(Rargs)
+		end
+		function RMeshResize(Rpart,Rsize)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Scale"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RWeld(Rpart1, Rpart2,Rlead)
+			local Rargs = {
+				[1] = "CreateWelds",
+				[2] = {
+					[1] = Rpart1,
+					[2] = Rpart2
+				},
+				[3] = Rlead
+			}
+			R_(Rargs)
+	
+		end
+		function RSetLocked(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SetLocked",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rboolean
+			}
+			R_(Rargs)
+		end
+		function RSetTrans(Rpart,Rint)
+			local Rargs = {
+				[1] = "SyncMaterial",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Transparency"] = Rint
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreateSpotlight(Rpart)
+			local Rargs = {
+				[1] = "CreateLights",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight"
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSyncLighting(Rpart,Rbrightness)
+			local Rargs = {
+				[1] = "SyncLighting",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight",
+						["Brightness"] = Rbrightness
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RColor(Rpart,Rcolor)
+			local Rargs = {
+				[1] = "SyncColor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Color"] = Rcolor,
+						["UnionColoring"] = false
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSpawnDecal(Rpart,Rside)
+			local Rargs = {
+				[1] = "CreateTextures",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal"
+					}
+				}
+			}
+	
+			R_(Rargs)
+		end
+		function RAddDecal(Rpart,Rasset,Rside)
+			local Rargs = {
+				[1] = "SyncTexture",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal",
+						["Texture"] = "rbxassetid://".. Rasset
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSky(Rid)
+			Re = Rchar.HumanoidRootPart.CFrame.x
+			Rf = Rchar.HumanoidRootPart.CFrame.y
+			Rg = Rchar.HumanoidRootPart.CFrame.z
+			RCreatePart(CFrame.new(math.floor(Re),math.floor(Rf),math.floor(Rg)) + Vector3.new(0,6,0),workspace)
+			for Ri,Rv in game.Workspace:GetDescendants() do
+				if Rv:IsA("BasePart") and Rv.CFrame.x == math.floor(Re) and Rv.CFrame.z == math.floor(Rg) then
+					RSetName(Rv,"Skybox")
+					RAddMesh(Rv)
+					RSetMesh(Rv,"111891702759441")
+					RSetTexture(Rv,Rid)
+					RMeshResize(Rv,Vector3.new(7200, 7200, 7200))
+					RSetLocked(Rv,true)
+				end
+			end
+		end
+		RSky("764055032")
+	end)
+	
+end
+coroutine.wrap(RQERME_fake_script)()
+
+local function RBRRXXCM_fake_script()
+	local Rscript = Instance.new('LocalScript', Rdc)
+
+	local Rskid = Rscript.Parent
+	
+	Rskid.MouseButton1Click:Connect(function()
+		local Rplayer = game.Players.LocalPlayer
+		local Rchar = Rplayer.Character
+		local Rtool
+		for Ri,Rv in Rplayer:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		for Ri,Rv in game.ReplicatedStorage:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		Rremote = Rtool.SyncAPI.ServerEndpoint
+		function R_(Rargs)
+			Rremote:InvokeServer(unpack(Rargs))
+		end
+		function RSetCollision(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SyncCollision",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CanCollide"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetAnchor(Rboolean,Rpart)
+			local Rargs = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Anchored"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreatePart(Rcf,Rparent)
+			local Rargs = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = Rcf,
+				[4] = Rparent
+			}
+			R_(Rargs)
+		end
+		function RDestroyPart(Rpart)
+			local Rargs = {
+				[1] = "Remove",
+				[2] = {
+					[1] = Rpart
+				}
+			}
+			R_(Rargs)
+		end
+		function RMovePart(Rpart,Rcf)
+			local Rargs = {
+				[1] = "SyncMove",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RResize(Rpart,Rsize,Rcf)
+			local Rargs = {
+				[1] = "SyncResize",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf,
+						["Size"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RAddMesh(Rpart)
+			local Rargs = {
+				[1] = "CreateMeshes",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSetMesh(Rpart,Rmeshid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["MeshId"] = "rbxassetid://"..Rmeshid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetTexture(Rpart, Rtexid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["TextureId"] = "rbxassetid://"..Rtexid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetName(Rpart, Rstringg)
+			local Rargs = {
+				[1] = "SetName",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rstringg
+			}
+	
+			R_(Rargs)
+		end
+		function RMeshResize(Rpart,Rsize)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Scale"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RWeld(Rpart1, Rpart2,Rlead)
+			local Rargs = {
+				[1] = "CreateWelds",
+				[2] = {
+					[1] = Rpart1,
+					[2] = Rpart2
+				},
+				[3] = Rlead
+			}
+			R_(Rargs)
+	
+		end
+		function RSetLocked(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SetLocked",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rboolean
+			}
+			R_(Rargs)
+		end
+		function RSetTrans(Rpart,Rint)
+			local Rargs = {
+				[1] = "SyncMaterial",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Transparency"] = Rint
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreateSpotlight(Rpart)
+			local Rargs = {
+				[1] = "CreateLights",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight"
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSyncLighting(Rpart,Rbrightness)
+			local Rargs = {
+				[1] = "SyncLighting",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight",
+						["Brightness"] = Rbrightness
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RColor(Rpart,Rcolor)
+			local Rargs = {
+				[1] = "SyncColor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Color"] = Rcolor,
+						["UnionColoring"] = false
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSpawnDecal(Rpart,Rside)
+			local Rargs = {
+				[1] = "CreateTextures",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal"
+					}
+				}
+			}
+	
+			R_(Rargs)
+		end
+		function RAddDecal(Rpart,Rasset,Rside)
+			local Rargs = {
+				[1] = "SyncTexture",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal",
+						["Texture"] = "rbxassetid://".. Rasset
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function Rspam(Rid)
+			for Ri,Rv in game.workspace:GetDescendants() do
+				if Rv:IsA("BasePart") then
+					spawn(function()
+						RSetLocked(Rv,false)
+						RSpawnDecal(Rv,Enum.NormalId.Front)
+						RAddDecal(Rv,Rid,Enum.NormalId.Front)
+	
+						RSpawnDecal(Rv,Enum.NormalId.Back)
+						RAddDecal(Rv,Rid,Enum.NormalId.Back)
+	
+						RSpawnDecal(Rv,Enum.NormalId.Right)
+						RAddDecal(Rv,Rid,Enum.NormalId.Right)
+	
+						RSpawnDecal(Rv,Enum.NormalId.Left)
+						RAddDecal(Rv,Rid,Enum.NormalId.Left)
+	
+						RSpawnDecal(Rv,Enum.NormalId.Bottom)
+						RAddDecal(Rv,Rid,Enum.NormalId.Bottom)
+	
+						RSpawnDecal(Rv,Enum.NormalId.Top)
+						RAddDecal(Rv,Rid,Enum.NormalId.Top)
+					end)
+				end
+			end 
+		end
+		Rspam("764055032")
+	end)
+end
+coroutine.wrap(RBRRXXCM_fake_script)()
+
+local function RGAYKMFH_fake_script()
+	local Rscript = Instance.new('LocalScript', Rfa)
+
+	local Rfasad = Rscript.Parent
+	
+	Rfasad.MouseButton1Click:Connect(function()
+		local Rplayer = game.Players.LocalPlayer
+		local Rchar = Rplayer.Character
+		local Rtool
+		for Ri,Rv in Rplayer:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		for Ri,Rv in game.ReplicatedStorage:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		Rremote = Rtool.SyncAPI.ServerEndpoint
+		function R_(Rargs)
+			Rremote:InvokeServer(unpack(Rargs))
+		end
+		function RSetCollision(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SyncCollision",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CanCollide"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetAnchor(Rboolean,Rpart)
+			local Rargs = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Anchored"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreatePart(Rcf,Rparent)
+			local Rargs = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = Rcf,
+				[4] = Rparent
+			}
+			R_(Rargs)
+		end
+		function RDestroyPart(Rpart)
+			local Rargs = {
+				[1] = "Remove",
+				[2] = {
+					[1] = Rpart
+				}
+			}
+			R_(Rargs)
+		end
+		function RMovePart(Rpart,Rcf)
+			local Rargs = {
+				[1] = "SyncMove",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RResize(Rpart,Rsize,Rcf)
+			local Rargs = {
+				[1] = "SyncResize",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf,
+						["Size"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RAddMesh(Rpart)
+			local Rargs = {
+				[1] = "CreateMeshes",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSetMesh(Rpart,Rmeshid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["MeshId"] = "rbxassetid://"..Rmeshid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetTexture(Rpart, Rtexid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["TextureId"] = "rbxassetid://"..Rtexid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetName(Rpart, Rstringg)
+			local Rargs = {
+				[1] = "SetName",
+				[2] = {
+					[1] = workspace.Part
+				},
+				[3] = Rstringg
+			}
+	
+			R_(Rargs)
+		end
+		function RMeshResize(Rpart,Rsize)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Scale"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RWeld(Rpart1, Rpart2,Rlead)
+			local Rargs = {
+				[1] = "CreateWelds",
+				[2] = {
+					[1] = Rpart1,
+					[2] = Rpart2
+				},
+				[3] = Rlead
+			}
+			R_(Rargs)
+	
+		end
+		function RSetLocked(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SetLocked",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rboolean
+			}
+			R_(Rargs)
+		end
+		function RSetTrans(Rpart,Rint)
+			local Rargs = {
+				[1] = "SyncMaterial",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Transparency"] = Rint
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreateSpotlight(Rpart)
+			local Rargs = {
+				[1] = "CreateLights",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight"
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSyncLighting(Rpart,Rbrightness)
+			local Rargs = {
+				[1] = "SyncLighting",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight",
+						["Brightness"] = Rbrightness
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RAddFire(Rpart)
+			local Rargs = {
+				[1] = "CreateDecorations",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["DecorationType"] = "Fire"
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RFireParts()
+			for Ri,Rv in game.Workspace:GetDescendants() do
+				spawn(function()
+					RSetLocked(Rv,false)
+					RAddFire(Rv)
+				end)
+			end
+		end
+		RFireParts()
+	
+		local Rplayer = game.Players.LocalPlayer
+	end)
+end
+coroutine.wrap(RGAYKMFH_fake_script)()
+
+local function RIVCFO_fake_script()
+	local Rscript = Instance.new('LocalScript', Rmsg)
+
+	local Rmsg = Rscript.Parent
+	
+	Rmsg.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";sm your server got cheesed skids")
+	end)
+end
+coroutine.wrap(RIVCFO_fake_script)()
+
+local function RAWID_fake_script()
+	local Rscript = Instance.new('LocalScript', Rat)
+
+	local Rat = Rscript.Parent
+	
+	Rat.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";alert all team c00lkidd waz hier")
+		Rrequestcommand:InvokeServer(";n all TEAM C00LKIDD WAS HERE.")
+	end)
+end
+coroutine.wrap(RAWID_fake_script)()
+
+local function RTHHNEL_fake_script()
+	local Rscript = Instance.new('LocalScript', Rtit)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";titler me team c00lkidd member")
+	end)
+end
+coroutine.wrap(RTHHNEL_fake_script)()
+
+local function RXWLERJ_fake_script()
+	local Rscript = Instance.new('LocalScript', Rbt)
+
+	local Rwad = Rscript.Parent
+	
+	Rwad.MouseButton1Click:Connect(function()
+		local RreplicatedStorage = game:GetService("ReplicatedStorage")
+		local RRequestCommand =
+			RreplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		RRequestCommand:InvokeServer(";btools me")
+	end)
+end
+coroutine.wrap(RXWLERJ_fake_script)()
+
+local function REGYWX_fake_script()
+	local Rscript = Instance.new('LocalScript', RFrame)
+
+	local RUIS = game:GetService('UserInputService')
+	
+	local Rframe = Rscript.Parent
+	
+	
+	
+	local RdragToggle = nil
+	
+	local RdragSpeed = 0.25
+	
+	local RdragStart = nil
+	
+	local RstartPos = nil
+	
+	
+	
+	local function RupdateInput(Rinput)
+	
+		local Rdelta = Rinput.Position - RdragStart
+	
+		local Rposition = UDim2.new(RstartPos.X.Scale, RstartPos.X.Offset + Rdelta.X,
+	
+			RstartPos.Y.Scale, RstartPos.Y.Offset + Rdelta.Y)
+	
+		game:GetService('TweenService'):Create(Rframe, TweenInfo.new(RdragSpeed), {Position = Rposition}):Play()
+	
+	end
+	
+	
+	
+	Rframe.InputBegan:Connect(function(Rinput)
+	
+		if (Rinput.UserInputType == Enum.UserInputType.MouseButton1 or Rinput.UserInputType == Enum.UserInputType.Touch) then 
+	
+			RdragToggle = true
+	
+			RdragStart = Rinput.Position
+	
+			RstartPos = Rframe.Position
+	
+			Rinput.Changed:Connect(function()
+	
+				if Rinput.UserInputState == Enum.UserInputState.End then
+	
+					RdragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	RUIS.InputChanged:Connect(function(Rinput)
+	
+		if Rinput.UserInputType == Enum.UserInputType.MouseMovement or Rinput.UserInputType == Enum.UserInputType.Touch then
+	
+			if RdragToggle then
+	
+				RupdateInput(Rinput)
+	
+			end
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(REGYWX_fake_script)()
+
+local function RITOTM_fake_script()
+	local Rscript = Instance.new('LocalScript', Rex)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";explode all")
+	end)
+end
+coroutine.wrap(RITOTM_fake_script)()
+
+local function RVTFE_fake_script()
+	local Rscript = Instance.new('LocalScript', Rbl)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";blur all")
+	end)
+end
+coroutine.wrap(RVTFE_fake_script)()
+
+local function RVMQA_fake_script()
+	local Rscript = Instance.new('LocalScript', Rts)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";music 95156028272944")
+		Rrequestcommand:InvokeServer(";pitch 0.23")
+		Rrequestcommand:InvokeServer(";volume 200")
+	end)
+end
+coroutine.wrap(RVMQA_fake_script)()
+
+local function RIBBC_fake_script()
+	local Rscript = Instance.new('LocalScript', Rba)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";bring all")
+	end)
+end
+coroutine.wrap(RIBBC_fake_script)()
+
+local function RNBXTDK_fake_script()
+	local Rscript = Instance.new('LocalScript', Rmsg2)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";disco")
+	end)
+end
+coroutine.wrap(RNBXTDK_fake_script)()
+
+local function RCHERS_fake_script()
+	local Rscript = Instance.new('LocalScript', Rma)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";char all 14anz_exiled")
+	end)
+end
+coroutine.wrap(RCHERS_fake_script)()
+
+local function RXBXUCBH_fake_script()
+	local Rscript = Instance.new('LocalScript', Rsk2)
+
+	local Rname = Rscript.Parent
+	
+	Rname.MouseButton1Click:Connect(function()
+		local Rplayer = game.Players.LocalPlayer
+		local Rchar = Rplayer.Character
+		local Rtool
+		for Ri,Rv in Rplayer:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		for Ri,Rv in game.ReplicatedStorage:GetDescendants() do
+			if Rv.Name == "SyncAPI" then
+				Rtool = Rv.Parent
+			end
+		end
+		Rremote = Rtool.SyncAPI.ServerEndpoint
+		function R_(Rargs)
+			Rremote:InvokeServer(unpack(Rargs))
+		end
+		function RSetCollision(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SyncCollision",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CanCollide"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetAnchor(Rboolean,Rpart)
+			local Rargs = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Anchored"] = Rboolean
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreatePart(Rcf,Rparent)
+			local Rargs = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = Rcf,
+				[4] = Rparent
+			}
+			R_(Rargs)
+		end
+		function RDestroyPart(Rpart)
+			local Rargs = {
+				[1] = "Remove",
+				[2] = {
+					[1] = Rpart
+				}
+			}
+			R_(Rargs)
+		end
+		function RMovePart(Rpart,Rcf)
+			local Rargs = {
+				[1] = "SyncMove",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RResize(Rpart,Rsize,Rcf)
+			local Rargs = {
+				[1] = "SyncResize",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["CFrame"] = Rcf,
+						["Size"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RAddMesh(Rpart)
+			local Rargs = {
+				[1] = "CreateMeshes",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSetMesh(Rpart,Rmeshid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["MeshId"] = "rbxassetid://"..Rmeshid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetTexture(Rpart, Rtexid)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["TextureId"] = "rbxassetid://"..Rtexid
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSetName(Rpart, Rstringg)
+			local Rargs = {
+				[1] = "SetName",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rstringg
+			}
+	
+			R_(Rargs)
+		end
+		function RMeshResize(Rpart,Rsize)
+			local Rargs = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Scale"] = Rsize
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RWeld(Rpart1, Rpart2,Rlead)
+			local Rargs = {
+				[1] = "CreateWelds",
+				[2] = {
+					[1] = Rpart1,
+					[2] = Rpart2
+				},
+				[3] = Rlead
+			}
+			R_(Rargs)
+	
+		end
+		function RSetLocked(Rpart,Rboolean)
+			local Rargs = {
+				[1] = "SetLocked",
+				[2] = {
+					[1] = Rpart
+				},
+				[3] = Rboolean
+			}
+			R_(Rargs)
+		end
+		function RSetTrans(Rpart,Rint)
+			local Rargs = {
+				[1] = "SyncMaterial",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Transparency"] = Rint
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RCreateSpotlight(Rpart)
+			local Rargs = {
+				[1] = "CreateLights",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight"
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSyncLighting(Rpart,Rbrightness)
+			local Rargs = {
+				[1] = "SyncLighting",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["LightType"] = "SpotLight",
+						["Brightness"] = Rbrightness
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RColor(Rpart,Rcolor)
+			local Rargs = {
+				[1] = "SyncColor",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Color"] = Rcolor,
+						["UnionColoring"] = false
+					}
+				}
+			}
+			R_(Rargs)
+		end
+		function RSpawnDecal(Rpart,Rside)
+			local Rargs = {
+				[1] = "CreateTextures",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal"
+					}
+				}
+			}
+	
+			R_(Rargs)
+		end
+		function RAddDecal(Rpart,Rasset,Rside)
+			local Rargs = {
+				[1] = "SyncTexture",
+				[2] = {
+					[1] = {
+						["Part"] = Rpart,
+						["Face"] = Rside,
+						["TextureType"] = "Decal",
+						["Texture"] = "rbxassetid://".. Rasset
+					}
+				}
+			}
+			R_(Rargs)
+		end
+	
+		function RSky(Rid)
+			Re = Rchar.HumanoidRootPart.CFrame.x
+			Rf = Rchar.HumanoidRootPart.CFrame.y
+			Rg = Rchar.HumanoidRootPart.CFrame.z
+			RCreatePart(CFrame.new(math.floor(Re),math.floor(Rf),math.floor(Rg)) + Vector3.new(0,6,0),workspace)
+			for Ri,Rv in game.Workspace:GetDescendants() do
+				if Rv:IsA("BasePart") and Rv.CFrame.x == math.floor(Re) and Rv.CFrame.z == math.floor(Rg) then
+					RSetName(Rv,"Skybox")
+					RAddMesh(Rv)
+					RSetMesh(Rv,"111891702759441")
+					RSetTexture(Rv,Rid)
+					RMeshResize(Rv,Vector3.new(7200, 7200, 7200))
+					RSetLocked(Rv,true)
+				end
+			end
+		end
+		RSky("764055032")
+	end)
+end
+coroutine.wrap(RXBXUCBH_fake_script)()
+
+local function RDTWZ_fake_script()
+	local Rscript = Instance.new('LocalScript', Rsa)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";sit all")
+	end)
+end
+coroutine.wrap(RDTWZ_fake_script)()
+
+local function RFNGV_fake_script()
+	local Rscript = Instance.new('LocalScript', Rnt)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";n all team c00lkidd was here skids")
+	end)
+end
+coroutine.wrap(RFNGV_fake_script)()
+
+local function RVAYPC_fake_script()
+	local Rscript = Instance.new('LocalScript', Rwa)
+
+	local Rtit = Rscript.Parent
+	
+	Rtit.MouseButton1Click:Connect(function()
+		local Rreplicatedstorage = game:GetService("ReplicatedStorage")
+		local Rrequestcommand = Rreplicatedstorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		
+		Rrequestcommand:InvokeServer(";warp all")
+	end)
+end
+coroutine.wrap(RVAYPC_fake_script)()
+
+local function RROPKL_fake_script()
+	local Rscript = Instance.new('LocalScript', Rr6)
+
+	local Rwad = Rscript.Parent
+	
+	Rwad.MouseButton1Click:Connect(function()
+		local RreplicatedStorage = game:GetService("ReplicatedStorage")
+		local RRequestCommand =
+			RreplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
+		RRequestCommand:InvokeServer(";r6 me")
+	end)
+end
+coroutine.wrap(RROPKL_fake_script)()
+
+local RisMinimized = false
+local RsavedFrameSize = RFrame.Size
+
+RminBtn.MouseButton1Click:Connect(function()
+	RisMinimized = not RisMinimized
+	if RisMinimized then
+		RsavedFrameSize = RFrame.Size
+		game:GetService('TweenService'):Create(RFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+			Size = UDim2.new(0, RFrame.Size.X.Offset, 0, 35)
+		}):Play()
+		for _, Rchild in pairs(RFrame:GetChildren()) do
+			if Rchild ~= RminBtn and Rchild ~= RcloseBtn and Rchild ~= RTextLabel and not Rchild:IsA("UICorner") then
+				Rchild.Visible = false
+			end
+		end
+		RminBtn.Text = "+"
+	else
+		game:GetService('TweenService'):Create(RFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+			Size = RsavedFrameSize
+		}):Play()
+		for _, Rchild in pairs(RFrame:GetChildren()) do
+			if Rchild ~= RminBtn and Rchild ~= RcloseBtn and Rchild ~= RTextLabel and not Rchild:IsA("UICorner") then
+				Rchild.Visible = true
+			end
+		end
+		RminBtn.Text = "–"
+	end
+end)
+
+RcloseBtn.MouseButton1Click:Connect(function()
+	game:GetService('TweenService'):Create(RFrame, TweenInfo.new(0.3, Enum.EasingStyle.Back, Enum.EasingDirection.In), {
+		Size = UDim2.new(0, 0, 0, 0),
+		Rotation = 180
+	}):Play()
+	task.wait(0.3)
+	RScreenGui:Destroy()
+end)
